@@ -1,5 +1,6 @@
 ## These functions allow you to return the inverse of a matrix that has previously been
-## calculated from a cached value; if not previuosly calculated it will calculate the
+## calculated from a cached value; if not previously calculated it will calculate the
+## inverse and cache the result for subsequent calls to save on computations.
 
 ## This function creates a special "matrix", which is really a list containing functions
 #  to get and set the matrix data, and, get and set the inverse if the data.
