@@ -3,7 +3,7 @@
 ## inverse and cache the result for subsequent calls to save on computations.
 
 ## This function creates a special "matrix", which is really a list containing functions
-#  to get and set the matrix data, and, get and set the inverse if the data.
+#  to get and set the matrix data, and, get and set the inverse of the data.
 
 makeCacheMatrix <- function(x = matrix()) {
     Inv <- NULL              # Variable to store inverse
